@@ -8,12 +8,40 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
   <script src="hover.js"></script>
+  <script src="welcomehover.js"></script>
 </head>
 
 <body>
+
+  <div class="loader">
+    <div class="enter">
+      <h1 class="welcomeheader">WALKER'S PORTFOLIO</h1>
+      <div class="welcome">
+        <p class="welcometext">i'm a cs student at the university of michigan. <br> this website is highly inspired by
+          tetr.io, one of my favorite games. <br> thank you for taking the time to look around.</p>
+      </div>
+      <div class="entershadow">
+        <div class="enterbutton">
+          <p class="entertext">ENTER</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <img src="background.jpg" class="background">
+
+  <audio>
+    <source src="hovernoise.mp3" type="audio/mpeg" class="hoversound">
+  </audio>
+
   <div class="header">
-    <p>HOME</p>
-    <div class="profile"></div>
+    <p class="toptext">HOME</p>
+    <div class="profilesection">
+      <div class="profileinfo">
+        <p class=profiletext>walker broadbent</p>
+      </div>
+      <img src="profile.jpg" class="profileicon">
+    </div>
   </div>
   <script src="init.js"></script>
 </body>
