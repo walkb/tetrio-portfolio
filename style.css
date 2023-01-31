@@ -1,0 +1,24 @@
+html, body {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  margin-left: 20vw;
+  margin-top: 5px;
+  height: 100px;
+  width: 100%;
+  border: 3px solid #545454;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonicon {
+  width: 100px;
+}
